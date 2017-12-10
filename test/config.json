@@ -1,0 +1,7 @@
+{
+	"host": "localhost",
+	"user": "updateuser",
+	"password": "update",
+	"database": "test_db",
+	"updatefolder": "./updates"
+}

@@ -11,7 +11,7 @@ var scripts = {};
 // Erzeugt gegebenfalls die Updatescript-Tabelle und gibt den aktuellen Stand zurück
 scripts.create_t_updatescripts =
 `
-CREATE TABLE IF NOT EXISTS \`test\`.\`t_updatescripts\` (
+CREATE TABLE IF NOT EXISTS \`t_updatescripts\` (
   \`updatescriptid\` INT NOT NULL,
   \`dateiname\` VARCHAR(300) NULL,
   PRIMARY KEY (\`updatescriptid\`)
